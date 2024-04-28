@@ -10,7 +10,7 @@ export default function App() {
     <div id="app">
       <div id="search-div">
         <input
-        placeholder="Enter any Country!"
+        placeholder="Enter any Country"
           type="text"
           name="search"
           className="search-box"
@@ -23,7 +23,7 @@ export default function App() {
             }
           }}
         />
-        <button>Search</button>
+        <button><p>Search</p></button>
       </div>
       <div className="data">
         {search.length==0 ? "" : testArr.map((e) => {
